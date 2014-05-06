@@ -1,0 +1,151 @@
+
+
+/**********************************
+HEADING
+***********************************/
+
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	font-size: 1.75em;
+	font-weight: normal;  /* Un-bold h1 */ 
+	line-height: 0.8em;
+}
+
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+
+}
+
+
+a {	
+	text-decoration: none;
+}
+
+#wrapper {
+
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#logo {
+
+	text-align: center;
+	margin: 0;
+}
+
+
+
+ /**********************************
+NAVIGATION
+***********************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+
+
+/**********************************
+GENERAL
+***********************************/
+img { 
+
+	max-width: 100%;
+}
+
+
+/**********************************
+Footer
+***********************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+
+body {
+	background-color: #fff;
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+
+}
+
+nav {
+	background: #599a68;
+}
+
+h1, h2 {
+	color: #fff;
+} 
+
+
+/* Links */
+
+a { 
+	color: #6ab47b;
+} 
+
+/*nav link*/
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/*selected nav link*/
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+
+
+/**********************************
+Gallery
+***********************************/
+
+/*
+ul#gallery li {
+
+	list-style: none;
+	float: left;
+	max-width: 45%;
+	margin: 0 15px;
+}*/
+
+/**********************************
+Page: PORTFOLIO
+***********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}

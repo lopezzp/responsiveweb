@@ -1,0 +1,41 @@
+1 Decisiones de diseño -> 
+	
+	- Marcar objetivos
+	- Listar los elementos de la página 
+	- Hacer bosquejo de la web con la estructura visual que queremos que tenga usando formas simples 
+
+
+
+
+
+2 Responsive Web Design 
+
+	A la hora de hacer RWD se debe tomar lo que se conoce como una Mobile First Approach 
+	
+		max-width
+
+
+
+3 Normas de uso 
+
+	Siempre los CSS de fuentes por encima del main.css para poder logicamnente referenciar a posteriori esas fuentes en el main.css o css principal 
+
+4 HTML 
+
+5 CSS 
+
+	!) Mucho cuidado al depurar unidades de medida relativas ya que siempre se veran afectadas por cambios o reservas con unidad fija en los contenedores padre como por ejemplo los tamaños con % para margenes, widths y demas 
+	
+	Unidades de medida 
+
+		Em: Relativo al tamaño de la letra M, por ejemplo -> h1 { font-size: 1.75em; }  <- se refiere a .75 veces mayor relativo al tamaño del padre o al default del browser si el padre no  ha fijado un tamaño 
+
+	Margin 
+		-5px 0 0 # Al asignar aqui tres valores el primero es para el Top el segundo para left &Right y el tercero para el bottom el valor negativo acerca en lugar de alejar
+
+
+	img { 
+
+	max-width: 100%; /*  Para evitar que las imagenes salgan del contenedor padre */
+	}
+
