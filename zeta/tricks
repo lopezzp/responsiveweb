@@ -17,3 +17,5 @@ git commit  -m  "Initial Commit ..."
 [git config --global user.email "carlos.or.lopez@gmail.com"
 git config --global user.name "Carlos"] # En caso de que sea la primera vez q usamos GIT
 git commit  -m  "Initial Commit ..."
+# Y a partir de aquí cuando modifiquemos algo -> 
+git commit -a -m "Se añade el trick para usar GIT en control de versiones "
